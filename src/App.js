@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Title from './components/Title'
+import ComponentLibrary from './components/ComponentLibrary'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hei, verden</p>
-      </header>
-    </div>
+    <>
+        <Title />
+        <ComponentLibrary />
+    </>
   );
 }
 
